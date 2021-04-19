@@ -1,0 +1,55 @@
+.lotimage{
+    height: 65px;
+    width: 67.297px;
+}
+
+tr, td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 5px 50px;
+    margin-top: -50px;
+}
+
+.table2{
+    border-collapse: separate;
+    border-spacing: 5px 50px;
+    margin-top: -95px;
+}
+
+.lotimage:hover{
+    filter: invert(1);
+}
+
+.popupinfo{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popupinfo .popuptable{
+    visibility: hidden;
+    text-align: center;
+    z-index: 1;
+}
+
+.popupinfo .popuptable::after{
+    content: "";
+}
+
+.popupinfo .show{
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

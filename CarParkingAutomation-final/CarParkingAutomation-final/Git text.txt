@@ -1,0 +1,15 @@
+So the token given at the gate will be used as a tracking device so as to know which parking spot that the car owner has parked their car.
+
+So I need a table to keep track of the tokens. it should have the token ID, the number plate of the car with the token and the parking spot.
+
+<?php
+    session_start();
+    if(!(isset($_SESSION['user_email']) && $_SESSION['user_email']!="")){
+        header("location:login.php");
+    }
+    // header("location: register.php")
+?>
+
+git add *
+git commit -m "message"
+git push origin _branch_Name_

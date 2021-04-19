@@ -1,0 +1,74 @@
+	body{
+		margin: 0px;
+		border: 0px;
+		background: url(bg6.jpg) no-repeat;
+		background-size: cover;
+	}
+	.header{
+		width: 100%;
+		height: 120px;
+		background-color: rgb(241, 175, 113);
+		color: rgb(5, 5, 5);
+		text-transform: uppercase;
+		display: inline-block;
+		text-decoration: none;
+		font-size: 24px;
+		font-family: sans-serif;
+		letter-spacing: 4px;
+		text-align: center;
+	}
+	ul li{
+		padding: 30px 35px;
+		border-bottom: 2px solid grey;
+		list-style-type: none;transition: 0.06s;
+		width: 200px;
+	}
+	ul li:hover{
+		
+	box-shadow: 0 0 5px  rgb(241, 175, 113),
+	            
+	            0 0 300px  rgb(241, 175, 113);
+	}
+	.sidebar{
+		flex: 10;
+		width: 250px;
+		color: white;
+		text-decoration: none;
+		padding-top: 20px;
+		text-transform: uppercase;
+		display: inline-block;
+		text-decoration: none;
+		font-size: 24px;
+		font-family: sans-serif;
+		letter-spacing: 4px;
+
+	}
+	
+	
+	
+	a{
+	position: relative;
+	display: inline-block;
+	align-items: center;
+	padding-top: 35px 30px;
+	text-decoration: none;
+	letter-spacing: 4px;
+	font-size: 24px;
+	border-radius: 15px;
+	text-transform: uppercase;
+	transition: 0.6s;
+	color:  rgb(241, 175, 113);
+	margin: 40px;
+	width: 236.672px;
+	
+	
+}
+/* a:hover{
+	background: #4AAB65;
+	box-shadow: 0 0 5px #15B040,
+	            0 0 25px #15B040,
+	            0 0 50px #15B040,
+	            0 0 200px #15B040,
+	            0 0 250px #15B040,
+	            0 0 300px #15B040;
+} */

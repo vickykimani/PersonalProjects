@@ -1,0 +1,152 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body, html{
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url(parking.jpg);
+
+
+  /* Add the blur effect */
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg {
+  /* The image used */
+  background-image: url(goldencar.jpg);
+
+
+  /* Add the blur effect */
+  /* filter: blur(8px); */
+  /* -webkit-filter: blur(8px); */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 13px;
+    transform: translate(-50%,-50%);
+    color: rgb(241, 175, 113);
+    box-shadow: 10px 0 70px 10px rgba(0, 0, 0, 0.3);
+    background-color: black;
+    border-radius: 15px;
+    padding: 30px;
+	text-align: center;
+}
+
+.form{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: rgb(17, 16, 15);
+    padding: 20px;
+    margin-bottom: 8%;
+    text-align: center;
+    align-items: center;
+
+}
+
+h1{
+  text-align: center;
+  width: 340px;
+  background-color: black;
+}
+
+form{
+  text-align: center;
+  align-items: center;
+  
+}
+
+
+#heading{
+  text-align: center;
+  align-items: center;
+  
+  
+}
+
+.login-box h1{
+  box-shadow: 0 0 3px 0 black;
+  text-align: center;
+  align-items: center;
+  font-size: 40px;
+  border-bottom: 6px solid rgb(241, 175, 113);
+  margin-bottom: 0;
+  padding: 13px 0 13px;
+  
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  align-self: center;
+  box-shadow: 0 0 3px 0 black;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  background-color: black;
+  border-bottom: 1px solid rgb(241, 175, 113);
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: rgb(241, 175, 113);
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+
+.login-button{
+	flex: 10;
+  /* width: 200px; */
+  text-align: center;
+  color: white;
+  margin-top: 8px;
+  border: 2px solid rgb(241, 175, 113); 
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  padding-left: 5px;
+  background-color: transparent;
+  text-transform: uppercase;
+  display: inline-block;
+  /* text-decoration: none; */
+  font-size: 24px;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+	
+	
+}
+.login-button:hover{
+  box-shadow: 0 0 20px rgb(241, 175, 113),
+	            
+  0 0 300px  rgb(241, 175, 113);
+}
